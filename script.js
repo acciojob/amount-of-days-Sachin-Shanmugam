@@ -6,5 +6,10 @@ function daysOfAYear(year) {
 		return 365;
 	}
 	}
-	
+
+console.log(daysOfAYear(2022)); // 365
+console.log(daysOfAYear(2024)); // 366
+console.log(daysOfAYear(1900)); // 365
+console.log(daysOfAYear(2000)); // 366
+
 }
